@@ -1,0 +1,94 @@
+// .navMobi {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     padding: 2% 0;
+//     z-index: 10000;
+//     @media screen and (min-width: 768px) {
+//         display: none;
+//     }
+//     a {
+//         z-index: 10000;
+//     }
+//     img {
+//         height: 94px;
+//         width: 123px;
+//     }
+//     &__toggle {
+//             z-index: 10000;
+//             top: 25px;
+//             right: 20px;
+//             cursor: pointer;
+//             font-size: 2.4rem;
+//             position: fixed;
+//                 span {
+//                 display: block;
+//                 background-color: orange;
+//                 width: 30px;
+//                 height: 5px;
+//                 // border: 1.5px solid rgb(121, 121, 121);
+//                 border-radius: 8px;
+//                 &:not(:last-child) {
+//                     margin-bottom: 3px;
+//             }
+//                 &:nth-child(2) {
+//                     width: 20px;
+//             }
+//                 &:nth-child(3) {
+//                     width: 10px;
+//             }
+//         }
+//     }
+// }
+
+
+
+// nav {
+//     // max-width: 1000px;
+//     margin: 0 auto;
+// }
+
+// Desktop Navigation Config
+// .navDesktop {
+
+//     margin: 3%;
+//     display: flex;
+//     justify-content: center;
+//     // z-index: 7002;
+//     @media screen and (max-width: 768px) {
+//         display: none;
+//     }
+//     ul {
+//         margin: 0 auto;
+//         max-width: 1000px;
+//         li {
+//             display: inline-block;
+//             padding: 0 1rem;
+//         }
+//     }
+//     &__links {
+        // text-align: left;
+        // font-size: clamp(1.6rem, 1.4vw, 4rem);
+        // text-transform: uppercase;
+        // color: orange;
+        // font-weight: 700;
+        // cursor: pointer;
+        // &:hover:not(:nth-child(4)) {
+        //     color: #333;
+        //     // font-weight: 700;;
+        //     position: relative;
+//             &::before {
+//                 @include hover;
+//             }
+//         }  
+//     }
+// }
+
+@keyframes hoverstate {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 20%;
+    }
+}

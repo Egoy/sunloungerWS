@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    }
+    
+    *, *::before, *::after {
+    box-sizing: inherit;
+    }
+    
+    body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: "Poppins", serif;
+    min-height: 1000px;
+    }
+    
+    // img {
+    // max-width: 100%;
+    // display: block;
+    // }
+    
+    h1,
+    h2,
+    h3,
+    p,
+    ul,
+    li
+    a {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    list-style: none;
+    }
+
+    .container {
+    width: 85%;
+    // max-width: 65em;
+    margin: 0 auto;
+    }
+    
+    .spacing>*+* {
+    margin-top: $spacer;
+    }
+    
+    .spacing2>*+* {
+    margin-top: $spacer2;
+    }
+    
+    @mixin hover {
+        position: absolute;
+        content: '';
+        height: 20px;
+        animation: hoverstate .5s forwards;
+        animation-iteration-count: 1;
+        background-color: rgba(255, 165, 0, .7);
+    }
+
