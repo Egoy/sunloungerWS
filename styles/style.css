@@ -446,6 +446,10 @@ nav ul li a {
   margin-left: 20px;
 }
 
+.what img {
+  max-height: 40px;
+}
+
 .features {
   margin-top: 3rem;
   font-size: clamp(18px, 2.5vw, 1.5rem);
