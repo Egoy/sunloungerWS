@@ -695,6 +695,13 @@ nav ul li a {
       flex-wrap: wrap-reverse;
 }
 
+@media screen and (min-width: 1080px) {
+  .ebook__main {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+
 .ebook__main img {
   max-width: 300px;
 }
@@ -755,7 +762,6 @@ nav ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 70vh;
   position: relative;
 }
 
@@ -925,6 +931,12 @@ nav ul li a {
 
 .contact__form-inputBox.w50 {
   width: 47%;
+}
+
+@media screen and (max-width: 500px) {
+  .contact__form-inputBox.w50 {
+    width: 100%;
+  }
 }
 
 .contact__form-inputBox.w100 {

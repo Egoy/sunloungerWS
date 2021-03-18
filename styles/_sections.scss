@@ -308,6 +308,10 @@
         align-items: center;
         align-content: center;
         flex-wrap: wrap-reverse;
+        @media screen and (min-width: 1080px) {
+            max-width: 1000px;
+            margin: auto;
+        }
         img {
             max-width: 300px;
         }
@@ -359,7 +363,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    // min-height: 70vh;
     // background: orange;
     position: relative;
     &:before {
@@ -483,6 +487,9 @@
             }
             &.w50 {
                 width: 47%;
+                @media screen and (max-width: 500px) {
+                    width: 100%;
+                }
             }
             &.w100 {
                 width: 100%;
